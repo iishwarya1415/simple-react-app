@@ -1,0 +1,55 @@
+.page-container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.page-heading {
+  font-size: 28px;
+}
+
+.page-description {
+  font-size: 18px;
+}
+
+.counter-container {
+  margin-top: 40px;
+}
+
+.counter-heading {
+  font-size: 24px;
+}
+
+.counter-value {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.increase {
+  background-color: #a7ffeb;
+}
+
+.decrease {
+  background-color: #f28b82;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.counter-warning {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+}
